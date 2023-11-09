@@ -1,0 +1,10 @@
+puts "Земля круглая или квадратная?"
+ans = gets.chomp
+
+if ans == "круглая"
+    puts "верно!"
+elsif ans == "плоская"
+    puts "сектант чтоль?"
+else 
+    puts "неверно( "
+end
